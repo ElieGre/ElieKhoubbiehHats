@@ -8,12 +8,12 @@ export default function SiteHeader() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b">
+    <header className="sticky top-0 z-50 bg-white/20 backdrop-blur border-b">
       <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           {/* Use your actual logo path */}
-          <Image src="/logo.svg" alt="EK Hats" width={28} height={28} />
-          <span className="font-semibold tracking-tight">EK Hats</span>
+          <Image src="./images/ekhatslogo.svg" alt="EK Hats" width={28} height={28} />
+          <span className="font-semibold tracking-tight">Elie Khoubbieh</span>
         </Link>
 
         {/* Desktop nav */}
